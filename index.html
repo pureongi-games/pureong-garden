@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>푸렁이의 골목정원</title>
+<meta name="description" content="창가에서 실제 시간으로 자라는 식물을 돌보는 작은 도트 정원 게임. 물 주고, 쓰다듬고, 꾸며요.">
+<meta property="og:title" content="푸렁이의 골목정원">
+<meta property="og:description" content="창가에서 실제 시간으로 자라는 식물을 돌보는 작은 도트 정원 게임">
+<meta property="og:image" content="img/feature.webp">
+<link rel="icon" href="favicon.png">
+<style>
+  :root { --ink: #3b2a1c; --sub: #7a6048; --cream: #fff8e8; --cream2: #f6e7c6; --line: #6b4a2c; --leaf: #3e7a28; --leaf-lt: #dff0c4; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: -apple-system, 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif; color: var(--ink); background: #f3ead6; line-height: 1.65; }
+  a { color: var(--leaf); }
+  header { background: #5a3a20; color: var(--cream); }
+  .bar { max-width: 1080px; margin: 0 auto; display: flex; align-items: center; gap: 12px; padding: 10px 18px; }
+  .bar img { width: 40px; height: 40px; border-radius: 10px; }
+  .bar b { font-size: 18px; }
+  .bar nav { margin-left: auto; display: flex; gap: 16px; font-size: 15px; }
+  .bar nav a { color: var(--cream); text-decoration: none; }
+  .hero { max-width: 1080px; margin: 0 auto; padding: 22px 18px 8px; }
+  .hero img { width: 100%; border-radius: 16px; border: 3px solid var(--line); display: block; image-rendering: auto; }
+  .lead { text-align: center; padding: 18px 18px 6px; }
+  .lead h1 { margin: 6px 0; font-size: clamp(26px, 5vw, 40px); }
+  .lead p { margin: 0 auto; max-width: 640px; color: var(--sub); font-size: 17px; }
+  .badge { display: inline-block; margin-top: 14px; padding: 8px 18px; border-radius: 999px; background: var(--leaf-lt); border: 2px solid var(--leaf); color: var(--leaf); font-weight: 700; }
+  main { max-width: 1080px; margin: 0 auto; padding: 8px 18px 40px; }
+  h2 { font-size: 22px; margin: 34px 0 12px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 16px; }
+  .card { background: var(--cream); border: 2px solid var(--line); border-radius: 14px; overflow: hidden; box-shadow: 0 3px 0 rgba(59, 42, 28, .25); }
+  .card img { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; border-bottom: 2px solid var(--cream2); }
+  .card div { padding: 10px 14px 14px; }
+  .card b { font-size: 17px; }
+  .card p { margin: 4px 0 0; color: var(--sub); font-size: 15px; }
+  .note { background: var(--cream); border: 2px dashed var(--line); border-radius: 14px; padding: 14px 18px; }
+  .maker { display: flex; align-items: center; gap: 16px; background: var(--cream); border: 2px solid var(--line); border-radius: 14px; padding: 14px 18px; }
+  .maker img { width: 96px; height: 96px; object-fit: contain; }
+  footer { background: #5a3a20; color: var(--cream); font-size: 14px; }
+  footer .bar a { color: var(--cream); }
+</style>
+</head>
+<body>
+<header><div class="bar"><img src="img/icon.png" alt=""><b>푸렁이의 골목정원</b><nav><a href="#features">소개</a><a href="#ads">광고 안내</a><a href="privacy.html">개인정보처리방침</a></nav></div></header>
+
+<section class="hero"><img src="img/feature.webp" alt="푸렁이의 골목정원 대표 그림: 창가 정원과 주인공, 잎상추 화분, 파랑새 푸렁이"></section>
+<section class="lead">
+  <h1>창가에서 키우는 작은 정원 생활</h1>
+  <p>파랑새 푸렁이와 함께 씨앗을 심고, 물을 주고, 잎을 살짝 쓰다듬어 보세요. 식물은 실제 시간에 맞춰 천천히 자라요.</p>
+  <span class="badge">Android · 비공개 테스트 중</span>
+</section>
+
+<main>
+  <h2 id="features">이런 게임이에요</h2>
+  <div class="grid">
+    <div class="card"><img src="img/01_garden_day.webp" alt="가을 낮의 창가 정원" loading="lazy"><div><b>실제 시간으로 자라는 식물</b><p>흙이 마르면 물을, 추우면 창문을 닫고 난방을. 오래 비워 둬도 식물이 영영 시들지는 않아요.</p></div></div>
+    <div class="card"><img src="img/02_garden_night.webp" alt="밤의 창가 정원" loading="lazy"><div><b>낮과 밤, 비와 눈</b><p>창밖은 시간 따라 낮·노을·밤으로 바뀌고, 날씨도 달라져요.</p></div></div>
+    <div class="card"><img src="img/03_plant_care.webp" alt="식물 상태와 돌보기 화면" loading="lazy"><div><b>꼼꼼한 돌보기</b><p>온도·습도·빛·흙 수분을 보고 무엇이 필요한지 알려 줘요.</p></div></div>
+    <div class="card"><img src="img/04_places.webp" alt="키울 장소 고르기" loading="lazy"><div><b>장소마다 다른 정원</b><p>침실 창가, 허브 선반, 처마 아래, 옥상 난간… 빛과 바람이 달라요.</p></div></div>
+    <div class="card"><img src="img/05_dex.webp" alt="식물 도감" loading="lazy"><div><b>식물 도감 100종</b><p>기르는 법을 모두 무료로 읽을 수 있어요. 지금은 12종을 키울 수 있어요.</p></div></div>
+    <div class="card"><img src="img/06_journal.webp" alt="첫 주 수첩과 편지함" loading="lazy"><div><b>첫 주 수첩과 이웃 편지</b><p>날마다 작은 정원 일을 하고, 빵집 이웃의 편지를 받아요. 정원 사진은 배경화면으로도.</p></div></div>
+  </div>
+
+  <h2 id="ads">광고 안내</h2>
+  <p class="note">광고는 보고 싶을 때만 누르는 보상형 광고뿐이에요(잎·꾸미기 소품·주인공 7일). 갑자기 뜨는 광고나 배너는 없고, 광고를 보지 않아도 돌봄·회복·장소 열기는 모두 할 수 있어요. 광고로 식물이 빨리 자라지는 않아요. 게임 기록은 기기 안에만 저장돼요. 자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 봐 주세요.</p>
+
+  <h2>만든 사람</h2>
+  <div class="maker"><img src="img/signature.png" alt="푸렁이(대현)의 시그니처 캐릭터" onerror="this.remove()"><div><b>푸렁이(대현)</b><p style="margin:4px 0 0;color:var(--sub)">기획 · 제작</p></div></div>
+</main>
+
+<footer><div class="bar"><span>© 2026 푸렁이(대현)</span><nav><a href="privacy.html">개인정보처리방침</a><a href="mailto:pureongi88@gmail.com">문의</a></nav></div></footer>
+</body>
+</html>
