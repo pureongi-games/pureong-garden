@@ -1,0 +1,7 @@
+out/
+__pycache__/
+*.pyc
+*.sqlite
+*.sqlite.gz
+client_secret*.json
+.env

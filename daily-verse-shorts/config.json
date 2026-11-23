@@ -1,0 +1,24 @@
+{
+  "app": {
+    "name": "[앱 이름]",
+    "tagline": ["매일 아침, 하나님 말씀을", "앱에서 받아보세요"],
+    "store_line": "Google Play · App Store 에서 검색",
+    "icon": "assets/app_icon.png",
+    "play_store_url": "",
+    "app_store_url": ""
+  },
+  "translation_label": "개역한글",
+  "youtube": {
+    "privacy": "public",
+    "category_id": "22",
+    "language": "ko",
+    "playlist_id": "",
+    "title_template": "{hook} | 오늘의 말씀 {ref}",
+    "hashtags": ["#오늘의말씀", "#성경말씀", "#말씀묵상", "#shorts"],
+    "tags": ["오늘의 말씀", "성경", "성경말씀", "말씀", "묵상", "기독교", "큐티", "QT", "개역한글"]
+  },
+  "comments": {
+    "auto_reply_simple": true,
+    "hide_spam": true
+  }
+}

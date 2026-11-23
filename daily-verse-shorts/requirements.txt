@@ -1,0 +1,4 @@
+numpy>=2.0
+pillow>=11.0
+google-api-python-client>=2.150
+google-auth>=2.35
